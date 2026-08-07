@@ -16,17 +16,17 @@ An LLM + RAG powered product discovery system that recommends products based on 
 - `scikit-learn` — cosine similarity search
 - `pandas` / `numpy` — data handling
 - Streamlit (planned) — UI
-- Anthropic Claude API (planned) — LLM reranking and explanations
+- Using Google Gemini API (free tier) — LLM reranking and explanations
 
 ## Project status
 
 - [x] Product data prepared (`products.csv`)
 - [x] Embedding pipeline (`embed.py`)
 - [x] Text-based search (`search.py`)
-- [ ] Click-based session vector (`session.py`)
-- [ ] Combined recommendation engine (`recommend.py`)
-- [ ] Purchase history / co-occurrence logic
-- [ ] LLM reranking layer (RAG)
+- [x] Click-based session vector (`session.py`)
+- [x] Combined recommendation engine (`recommend.py`)
+- [x] Purchase history / co-occurrence logic
+- [x] LLM reranking layer (RAG)
 - [ ] Streamlit UI
 
 ## Setup
