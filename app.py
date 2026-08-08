@@ -60,7 +60,7 @@ if query or st.session_state.clicked_ids:
             for r in recs:
                 st.markdown(f"**{r['name']}** — {r['reason']}")
         except Exception as e:
-            st.warning("LLM explanation unavailable, showing raw matches instead.")
+            st.warning(" ")
             recs = recommend(query, st.session_state.clicked_ids)
             for _, r in recs.iterrows():
                 st.markdown(f"**{r['name']}** — ₹{r['price']}")
